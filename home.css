@@ -1,0 +1,138 @@
+body{
+    background-image: url(https://palmont2.sharepoint.com/sites/P-SIGTestes/Lists/html%20imagens/Attachments/30/Sem%20Título-12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navBar{
+    width: 100%;
+    height: 5rem;
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.dd{
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    right: 7.5rem;
+    top: 1.5rem;
+    z-index: 1000;
+}
+.menu-list{
+    width: 16rem;
+    height: 9rem;
+    position: absolute;
+    right: 1rem;
+    top: 5rem;
+    transition: 100ms;
+    visibility: hidden;
+
+}
+.adicionar, .registrar, .sair{
+    padding-top: 2px;
+    cursor: pointer;
+    width: 100%;
+    height: 3rem;
+    background: white;
+    outline:none;
+    border: none;
+}
+.adicionar:hover{
+    background-color: black;
+    animation: escuro .2s;
+    color: white;
+}
+.registrar:hover{
+    background-color: black;
+    animation: escuro .2s;
+    color: white;
+}
+.sair:hover{
+    background-color: black;
+    color: white;
+    animation: escuro .2s;
+}
+.pesquisa{
+    width: 16rem;
+    height: 2rem;
+    position: absolute;
+    top: 11rem;
+    background-color: white;
+}
+
+@keyframes escuro {
+    0% { background-color: rgba(0, 0, 0, 0); }
+    20% { background-color: rgba(0, 0, 0, 0.2); }
+    50% { background-color: rgba(0, 0, 0, 0.5);}
+    100% { background-color: rgba(0, 0, 0, 1);}
+}
+.dd:hover ~ .menu-list{
+    visibility: visible;
+}
+.menu-list:hover{
+    visibility: visible;
+}
+#logo{
+    width: 250px;
+    position: relative;
+    left: 50%;
+    top: 0.5rem;
+    transform: translate(-50%);
+}
+.box{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background-color: white;
+    width: 1100px;
+    height: 600px;
+    position: relative;
+    top: 13rem;
+    left: 50%;
+    overflow: hidden scroll;
+    transform: translate(-50%);
+    box-shadow: 0 0 1em black;
+    border-radius: 10px;
+}
+td{
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+    font-size: 12px;
+    background-color: transparent;
+    color: black;
+    height: 30px;
+    text-align: center;
+}
+th{
+    border-bottom: 1px solid black;
+    padding: 3px;
+    font-size: 12px;
+    background-color: grey;
+    color: white;
+    width: 150px;
+    border-collapse: collapse;
+}
+table{
+    border-collapse: collapse;
+    border-radius: 10px;
+    
+}
+.box::-webkit-scrollbar{
+    width: 1em;
+}
+.box::-webkit-scrollbar-track{
+    background: transparent;
+    border-radius: 100vw;
+}
+.box::-webkit-scrollbar-thumb{
+    background: grey;
+    border-radius: 100vw;
+    border: 1px solid transparent;
+}
+#dd_image{
+    width: 50px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}

@@ -1,2 +1,2 @@
-# Studing
-A repository with testing files
+# MyProjects
+All my projects

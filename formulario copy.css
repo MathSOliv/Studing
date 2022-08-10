@@ -1,0 +1,452 @@
+.box{
+    position: absolute;
+    height: 50rem;
+    width: 80%;
+    background-color: #0A0D14;
+    border-radius: 10px;
+    left: 50%;
+    top: 10rem;
+    transform: translate(-50%);
+    overflow: hidden;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #28364E;
+    height: 65rem;
+}
+.field0{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 5rem;
+    width: 100%;
+}
+.field4{
+    position: absolute;
+    left: 0px;
+    top: 25rem;
+    height: 9rem;
+    width: 100%;
+}
+.obra{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 97%;
+    height: 100%;
+    text-align: center;
+}
+#obra{
+    width: 60%;
+    height: 1.8rem;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    position: relative;
+    top: 40%;
+    text-align: center;
+}
+#l_obra{
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: .6rem;
+}
+.field1{
+    position: absolute;
+    left: 0%;
+    top: 5rem;
+    height: 20rem;
+    width: 50%;
+}
+.field2{
+    position: absolute;
+    right: 0%;
+    top: 5rem;
+    height: 20rem;
+    width: 50%;
+}
+.field5{
+    position: absolute;
+    left: 0%;
+    top: 9rem;
+    height: 20rem;
+    width: 50%;
+}
+.field6{
+    position: absolute;
+    right: 0%;
+    top: 9rem;
+    height: 20rem;
+    width: 50%;
+}
+.data{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: 0%;
+    width: 95%;
+    height: 5rem;
+    text-align: center;
+}
+.area{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: 0%;
+    width: 95%;
+    height: 5rem;
+    text-align: center;
+}
+.equipe{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: 0%;
+    width: 95%;
+    height: 5rem;
+    text-align: center;
+}
+.empresa{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: 0%;
+    width: 95%;
+    height: 5rem;
+    text-align: center;
+    color: white;
+}
+.classificação{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: 0%;
+    width: 95%;
+    height: 5rem;
+    text-align: center;
+    color: white;
+}
+.condicao{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: 5%;
+    width: 95%;
+    height: 5rem;
+    text-align: center;
+    color: white;
+}
+.equip{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: 0%;
+    width: 95%;
+    height: 5rem;
+    text-align: center;
+}
+.navBar{
+    width: 100%;
+    height: 10%;
+    background-color: #0A0D14;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#logo{
+    height: 70%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#l_area{
+    position: relative;
+    top: 10%;
+    color: white;
+}
+#area{
+    width: 60%;
+    height: 1.8rem;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    position: relative;
+    top: 20%;
+    text-align: center;
+}
+#l_equipe{
+    position: relative;
+    top: 10%;
+    color: white;
+}
+#equipe{
+    width: 60%;
+    height: 1.8rem;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    position: relative;
+    top: 20%;
+    text-align: center;
+}
+#l_data{
+    position: relative;
+    top: 10%;
+    text-align: center;
+    color: white;
+}
+#data_ocorrido{
+    width: 40%;
+    height: 1.8rem;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    position: relative;
+    top: 20%;
+}
+#hora_ocorrido{
+    width: 19%;
+    height: 1.8rem;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    position: relative;
+    top: 20%;
+}
+#l_equip{
+    position: relative;
+    top: 10%;
+    text-align: center;
+    color: white;
+}
+#equipamentos{
+    width: 60%;
+    height: 1.8rem;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    position: relative;
+    top: 20%;
+    text-align: center;
+}
+#equipamentos:hover {
+    border: solid black 1px;
+}
+
+input[type="radio"]{
+    position: relative;
+    width: 15px;
+    height: 15px;
+    margin: 1px;
+    outline: none;
+    background:  #111;
+    -webkit-appearance: none;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid white;
+    transition: .5s;
+}
+input[type="radio"]:checked{
+    background: white;
+}
+#l_envolvidos{
+    position: relative;
+    top: 10%;
+    color: white;
+}
+#envolvidos{
+    width: 60%;
+    height: 1.8rem;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    position: relative;
+    top: 20%;
+    text-align: center;
+}
+.envolvidos{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: 0%;
+    width: 95%;
+    height: 5rem;
+    text-align: center;
+}
+#l_lider{
+    position: relative;
+    top: 10%;
+    color: white;
+}
+#lider{
+    width: 60%;
+    height: 1.8rem;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    position: relative;
+    top: 20%;
+    text-align: center;
+}
+.lider{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: 0%;
+    width: 95%;
+    height: 5rem;
+    text-align: center;
+}
+#l_risco{
+    position: relative;
+    top: 10%;
+    color: white;
+}
+#riscos{
+    width: 60%;
+    height: 1.8rem;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    position: relative;
+    top: 20%;
+    text-align: center;
+}
+.riscos{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: 0%;
+    width: 95%;
+    height: 5rem;
+    text-align: center;
+}
+#l_ocorrido{
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: .6rem;
+}
+#ocorrido{
+    width: 60%;
+    height: 5rem;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    position: relative;
+    top: 20%;
+}
+.ocorrido{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: 0%;
+    width: 95%;
+    height: 5rem;
+    text-align: center;
+}
+#l_processo{
+    position: relative;
+    top: 10%;
+    color: white;
+}
+#processo{
+    width: 60%;
+    height: 1.8rem;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    position: relative;
+    top: 20%;
+    text-align: center;
+}
+.processo{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: 0%;
+    width: 95%;
+    height: 5rem;
+    text-align: center;
+}
+#l_resolvido{
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 1rem;
+}
+.resolvido{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: 0%;
+    width: 95%;
+    height: 5rem;
+    text-align: center;
+}
+#resolvido{
+    width: 2rem;
+    height: 1.8rem;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    position: relative;
+    top: 60%;
+    text-align: center;
+}
+input[type="submit"]{
+    top: 10%;
+    border: none;
+    border-radius: 10px;
+    background-color: #28364E;
+    color: white;
+    width: 20%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    height: 2rem;
+    cursor: pointer;
+}
+.botao_enviar{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    top: 20.5rem;
+}
+.voltar{
+    position: absolute;
+    background-color: white;
+    border: 3px solid #28364E;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 100%;
+    left: 1rem;
+    top: 50%;
+    transform: translate(0%,-50%);
+    cursor: pointer;
+}
+.cima{
+    width: 75%;
+    height: 10%;
+    background-color: #28364E;
+    position: absolute;
+    border-radius: 30%;
+    transform: rotate(-31deg);
+    top: .7rem;
+    left: .1rem;
+}
+.baixo{
+    width: 75%;
+    height: 10%;
+    background-color: #28364E;
+    position: absolute;
+    border-radius: 30%;
+    transform: rotate(31deg);
+    top: 1.6rem;
+    left: .1rem;
+}

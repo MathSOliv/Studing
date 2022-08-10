@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body{
+            background-image: linear-gradient(to right, rgb(18, 18, 243), rgb(0, 191, 255)) ;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        .titulo{
+            position: absolute;
+            top: 5rem;
+            left: 50%;
+            transform: translate(-50%);
+        }
+        .container{
+            background-color: black;
+            width: 100%;
+            height: 5rem;
+            position: absolute;
+            left: 0%;
+            top: 0%;
+        }
+        #logo{
+            height:4rem ;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .box{
+            position: absolute;
+            left: 50%;
+            top: 10rem;
+            transform: translate(-50%);
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 1rem;
+            border-radius: 1rem;
+            width: 30%;
+            color: white;
+        }
+        input[type=text], select{
+            width: 10rem;
+            padding: 1.2rem 2rem;
+            margin: 8px 0;
+            display: inline-block;
+            border: 0.1rem solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            outline: none;
+            text-align: center;
+        }
+        #ocorrido{
+            width: 19.6rem;
+            height: 7rem;
+            border-radius: 0.4rem;
+            outline: none;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="titulo">
+        <h1>Registro de Desvios</h1>
+    </div>
+
+    <div class="container">
+        <div class="logo">
+            <img src="https://palmont2.sharepoint.com/sites/P-SIGTestes/Lists/html%20imagens/Attachments/27/Logo_Trtansparente_Branco_Final.png" id="logo">
+        </div>
+    </div>
+    <div class="box">
+        <form action="" method="">
+
+
+            <!---
+            <label for="data_ocorrido"><b>Data do Ocorrido:</b></label>
+            <br>
+            <input type="date" class="data_ocorrido" id="data_ocorrido">
+
+            Empresa Envolvida:
+                <input type="radio" id="Palmont" name="empresa" value="Palmont" required>
+                <label for="Palmont">Palmont</label>
+
+                <br>
+
+                <input type="radio" id="Subcontratada" name="empresa" value="Subcontratada" required>
+                <label for="Subcontratada">Subcontratada</label>
+
+                <br><br>
+            -->
+            <fieldset>
+                <div>
+                    <label for="area">Área:</label>
+                    <br>
+                    <select id="area">
+                        <option value="Área 1">Área 1</option>
+                        <option value="Área 2">Área 2</option>
+                        <option value="Área 3">Área 3</option>
+                        <option value="Área 4">Área 4</option>
+                    </select>
+                </div>
+
+                <div>
+                <label for="equipamentos">Equipamentos:</label>
+                <br>
+                <select id="equipamentos">
+                    <option value="Equipamentos 1">Equipamentos 1</option>
+                    <option value="Equipamentos 2">Equipamentos 2</option>
+                    <option value="Equipamentos 3">Equipamentos 3</option>
+                    <option value="Equipamentos 4">Equipamentos 4</option>
+                </select>
+
+                </div>
+                <div>
+                    <label for="equipe">Equipe:</label>
+                    <br>
+                    <select id="equipe">
+                        <option value="ALMOXARIFADO/MATERIAIS">ALMOXARIFADO/MATERIAIS</option>
+                        <option value="ANDAIMES">ANDAIMES</option>
+                        <option value="APOIO OPERACIONAL">APOIO OPERACIONAL</option>
+                        <option value="CONSTRUÇÃO CIVIL">CONSTRUÇÃO CIVIL</option>
+                    </select>
+                </div>
+            </fieldset>
+                <br>
+
+                <label for="envolvidos">Envolvidos:</label>
+                <br>
+                <select id="envolvidos">
+                    <option value="Amanda">Amanda</option>
+                    <option value="Christoffer">Christoffer</option>
+                    <option value="Matheus">Matheus</option>
+                    <option value="Rogerio">Rogerio</option>
+                </select>
+
+                <br>
+
+                <label for="lider">Líder Imediato:</label>
+                <br>
+                <select id="lider">
+                    <option value="Amanda">Amanda</option>
+                    <option value="Christoffer">Christoffer</option>
+                    <option value="Matheus">Matheus</option>
+                    <option value="Rogerio">Rogerio</option>
+                </select>
+
+                <br>
+
+                <label for="risco">Tipo de risco:</label>
+                <br>
+                <select id="risco">
+                    <option value="Agente Biológico">Agente Biológico</option>
+                    <option value="Andaimes">Andaimes</option>
+                    <option value="Animal/Inseto">Animal/Inseto</option>
+                    <option value="Barulho">Barulho</option>
+                </select>
+
+                <br>
+
+                <label for="ocorrido">Ocorrido</label>
+                <br>
+                <textarea name="ocorrido" id="ocorrido" cols="30" rows="10"></textarea>
+
+        </form>
+    </div>
+    
+    
+</body>
+</html>

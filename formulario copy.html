@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <div class="navBar">
+        <div class="voltar">
+            <div class="cima"></div>
+            <div class="baixo"></div>
+        </div>
+        <img src="https://palmont2.sharepoint.com/sites/P-SIGTestes/Lists/html%20imagens/Attachments/27/Logo_Trtansparente_Branco_Final.png" id="logo">
+    </div>
+    <div class="box">
+        <form action="">
+            <div class="field0">
+                <div class="obra">
+                    <label for="obra" id="l_obra">Obra:</label>
+                    <select id="obra">
+                        <option value="Obra 1">Obra 1</option>
+                        <option value="Obra 2">Obra 2</option>
+                        <option value="Obra 3">Obra 3</option>
+                        <option value="Obra 4">Obra 4</option>
+                    </select>
+                </div>
+            </div>
+            <div class="field1">
+                <div class="data">
+                    <label for="data_ocorrido" id="l_data"><b>Data do Ocorrido:</b></label>
+                    <br>
+                    <input type="date" class="data_ocorrido" id="data_ocorrido">
+                    <input type="time" class="data_ocorrido" id="hora_ocorrido">
+                </div>
+                <div class="area">
+                    <label for="area" id="l_area"><b>Área:<b></label>
+                    <br>
+                    <select id="area">
+                        <option value="Área 1">Área 1</option>
+                        <option value="Área 2">Área 2</option>
+                        <option value="Área 3">Área 3</option>
+                        <option value="Área 4">Área 4</option>
+                    </select>
+                </div>
+                <div class="equipe">
+                    <label for="equipe" id="l_equipe">Equipe:</label>
+                        <br>
+                        <select id="equipe">
+                            <option value="Equipamentos 1">Equipe 1</option>
+                            <option value="Equipamentos 2">Equipe 2</option>
+                            <option value="Equipamentos 3">Equipe 3</option>
+                            <option value="Equipamentos 4">Equipe 4</option>
+                        </select>
+                </div>
+
+                <div class="lider">
+                    <label for="lider" id="l_lider">Líder Imediato:</label>
+                        <br>
+                        <select id="lider">
+                            <option value="Equipamentos 1">Equipe 1</option>
+                            <option value="Equipamentos 2">Equipe 2</option>
+                            <option value="Equipamentos 3">Equipe 3</option>
+                            <option value="Equipamentos 4">Equipe 4</option>
+                        </select>
+                </div>
+            </div>
+            <div class="field2">
+
+                <div class="empresa">
+                    <label><b>Empresa Envolvida:</b></label>
+                <br>
+                <input type="radio" id="Palmont" name="empresa" value="Palmont" required>
+                <label for="Palmont">Palmont</label>
+
+                <br>
+
+                <input type="radio" id="Subcontratada" name="empresa" value="Subcontratada" required>
+                <label for="Subcontratada">Subcontratada</label>
+
+                <br><br>
+                </div>
+
+                <div class="equip">
+                    <label for="equipamentos" id="l_equip">Equipamentos:</label>
+                        <br>
+                        <select id="equipamentos">
+                            <option value="Equipamentos 1">Equipamentos 1</option>
+                            <option value="Equipamentos 2">Equipamentos 2</option>
+                            <option value="Equipamentos 3">Equipamentos 3</option>
+                            <option value="Equipamentos 4">Equipamentos 4</option>
+                        </select>
+                </div>
+
+                <div class="envolvidos">
+                    <label for="envolvidos" id="l_envolvidos">Envolvidos:</label>
+                        <br>
+                        <select id="envolvidos">
+                            <option value="Equipamentos 1">Equipamentos 1</option>
+                            <option value="Equipamentos 2">Equipamentos 2</option>
+                            <option value="Equipamentos 3">Equipamentos 3</option>
+                            <option value="Equipamentos 4">Equipamentos 4</option>
+                        </select>
+                </div>
+
+                <div class="riscos">
+                    <label for="riscos" id="l_risco">Tipos de Risco:</label>
+                        <br>
+                        <select id="riscos">
+                            <option value="Equipamentos 1">Equipamentos 1</option>
+                            <option value="Equipamentos 2">Equipamentos 2</option>
+                            <option value="Equipamentos 3">Equipamentos 3</option>
+                            <option value="Equipamentos 4">Equipamentos 4</option>
+                        </select>
+                </div>
+
+            </div>
+
+            <div class="field4">
+                <div class="ocorrido">
+                    <label for="ocorrido" id="l_ocorrido">Ocorrido:</label>
+                    <br>
+                    <textarea name="ocorrido" id="ocorrido"></textarea>
+                </div>
+            
+
+            <div class="field5">
+                <div class="processo">
+                    <label for="processo" id="l_processo">Processo:</label>
+                        <br>
+                        <select id="processo">
+                            <option value="Equipamentos 1">Segurança do Trabalho</option>
+                            <option value="Equipamentos 2">Saúde</option>
+                            <option value="Equipamentos 3">Meio-Ambiente</option>
+                    </select>
+                </div>
+
+                <div class="condicao">
+                    <label><b>Ato ou Condição Insegura</b></label>
+                <br>
+                <input type="radio" id="Ato" name="Condição" value="Ato Inseguro" required>
+                <label for="Ato">Ato Inseguro</label>
+
+                <br>
+
+                <input type="radio" id="Condição" name="Condição" value="Condição Insegura" required>
+                <label for="Condição">Condição Insegura</label>
+
+                </div>
+
+            </div>
+
+            <div class="field6">
+                <div class="classificação">
+                    <label><b>Classificação do Desvio:</b></label>
+                <br>
+                <input type="radio" id="Leve" name="classificação" value="Leve" required>
+                <label for="Leve">Leve</label>
+
+                <br>
+
+                <input type="radio" id="Moderado" name="classificação" value="Moderado" required>
+                <label for="Moderado">Moderado</label>
+
+                <br>
+
+                <input type="radio" id="Alto" name="classificação" value="Alto" required>
+                <label for="Alto">Alto</label>
+
+            </div>
+
+            <div class="resolvido">
+                <label id="l_resolvido">Já foi Resolvido?</label>
+                <input type="checkbox" id="resolvido">
+
+            </div>
+
+            </div>
+
+            <div class="botao_enviar">
+                <input type="submit">
+            </div>
+
+
+
+            
+
+        </form>
+    </div>
+</body>
+</html>
